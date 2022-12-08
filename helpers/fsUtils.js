@@ -40,6 +40,7 @@ const readAndDelete = (file, id) => {
       const filteredData = parsedData.filter((newNote) => newNote.id !== id);
 
       writeToFile(file, filteredData);
+
     }
   });
 };

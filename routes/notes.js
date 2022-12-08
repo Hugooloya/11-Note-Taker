@@ -3,7 +3,8 @@ const { json } = require("express");
 const {
   readFromFile,
   readAndAppend,
-  readAndDelete,
+  writeToFile,
+  readAndDelete
 } = require("../helpers/fsUtils");
 const { v4: uuidv4 } = require('uuid');
 
@@ -21,7 +22,7 @@ notes.post("/", (req, res) => {
     const newNote = {
       title,
       text,
-      note_id: uuidv4(),
+      id: uuidv4(),
     };
 
     readAndAppend(newNote, "./db/db.json");
@@ -32,9 +33,9 @@ notes.post("/", (req, res) => {
   }
 });
 
-// notes.delete("/:id", (req, res) => {
-//   readAndDelete("./db/db.json", req.params.id);
-//   res.json(`Note deleted successfully`);
-// });
+notes.delete('/:id', (req, res) => {
+    readAndDelete('./db/db.json', req.params.id)
+    res.json(`Note deleted successfully`);
+});
 
 module.exports = notes;

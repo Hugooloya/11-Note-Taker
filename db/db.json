@@ -1,21 +1,12 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "Things to do",
+        "text": "Groceries at Sprouds\nPick up Vader from PetCo",
+        "id": "9723fedb-d7f3-4122-893b-4b931688d85b"
     },
     {
-        "title": "Sushi places",
-        "text": "Sushi Shu best place ever\n",
-        "note_id": "599e"
-    },
-    {
-        "title": "Test",
-        "text": "Test",
-        "note_id": "4dd4"
-    },
-    {
-        "title": "Note",
-        "text": "test",
-        "note_id": "a0f2f099-e8d9-4bf2-88df-1fb9f3dfa70b"
+        "title": "Banana cake recipe ",
+        "text": "Ensure your ingredients are at room temperature (eggs and butter)\nYou need the acidity from the lemon juice (& milk) mixture.  Subbing in just milk or cream won’t work.  (You can use buttermilk in its place if needed).\nWhen mixing your butter, sugar, eggs and vanilla, beat the mixture until VERY fluffy, almost the consistency of a fluffy buttercream frosting.  This should take about 5 minutes.\nWhen adding the flour mixture you want to mix until just combined.  Over-mixing will cause a dense chewy result.\nThe cooking time on this cake can vary!  Check your cake at 55 minutes, if it isn’t ready, continue cooking until a toothpick comes out clean (this can be up to an additional 20 minutes depending on your oven).  The result will be a moist and irresistible banana cake.",
+        "id": "6bbfec21-570e-4d5b-8555-99d5751e29ce"
     }
 ]
